@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+    <form method="POST">
+        <input  type="submit" class="txt" asp-page-handler="Txt" value="TXT">
+        <input  type="submit" class="pdf" asp-page-handler="Pdf" value="PDF">
+        <input  type="submit" class="html" asp-page-handler="Html" value="HTML">
+    </form>
